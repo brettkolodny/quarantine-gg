@@ -1,0 +1,19 @@
+name: quarantine-gg
+version: "0.1.0"
+author: Brett Kolodny <brettkolodny@gmail.com>
+about: Creates a quarantine avatar for discord.gg
+args:
+    - AVATAR:
+        required: true
+        index: 1
+    - XOFFSET:
+        short: x
+        long: x-offset
+        required: false
+        takes_value: true
+    - YOFFSET:
+        short: y
+        long: y-offset
+        required: false
+        takes_value: true
+
